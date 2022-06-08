@@ -1,0 +1,145 @@
+.body{
+    background-color: #ebebeb;
+    height: 1200px;
+}
+
+.parrafo{
+    text-align: center;
+}
+
+.ContainerPrincipal{
+    background-color: beige;
+    width: 50%;
+    height: 400%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.parrafoPrincipal{
+    color: coral;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.pedido{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.tituloPedido{
+    font-size: 20px;
+    font-family: sans-serif;
+    border-bottom: 1px solid #a09191;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+    padding-bottom: 12px;
+}
+
+.detallesPedido{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.valorPedido{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cantidad{
+    background: rgb(234, 227, 227);
+    color: rgb(16, 4, 35);
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80px;
+    height: 28px;
+}
+
+
+.precio , .unidades{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.botonesCantidad{
+    cursor: pointer;
+    width: 20px;
+    text-align: center;
+    border-radius: 10px;
+    height: 20px;
+    /* user-select: none; lo ponemos para que cuando hagamos click en el boton no se seleccione el texto */
+}
+
+
+.botonesCantidad:active{
+    background-color: red;
+}
+
+.formulario{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 2px;
+    margin: auto;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+input{
+    margin: 10px 0px;
+    height: 30px;
+    outline: none;
+}
+
+input:focus{
+    border: 2px solid rgb(33, 112, 202);
+}
+
+.registro{
+    background-color: rgb(26, 99, 235);
+    height: 30px;
+    width: 30%;
+    margin: 10px auto 20px auto;
+    border: transparent;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.tituloForm{
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.contenedorBuscador{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    align-items: center;
+    padding: 2px;
+    margin: 20px auto;
+}
+
+.contenido{
+    width: 60%;
+    margin: 10px auto;
+}

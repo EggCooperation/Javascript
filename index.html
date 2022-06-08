@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body" class="body">
+
+    <section class="container">
+        <p class="parrafo" id="parrafo">Parrafo con id</p>
+    </section>
+    
+
+    <!-- contenido para usar con el script "scriptDOM.js" -->
+    <section>
+        <section class="pedido">
+        <div class="tituloPedido">Tu pedido</div>
+        <div class="detallesPedido">
+            <div>
+                <img src="https://images.deliveryhero.io/image/pedidosya/products/60884_10a30ec1-d831-435e-b0e0-67d843498011.jpg?quality=90&height=56&width=56&webp=1&dpi=1.5">
+            </div>
+            <div>
+                <p>Combo hamburguesa con queso</p>
+                <div class="valorPedido">
+                    <div class="precio">$<span id="precio">400</span></div>
+                    <div class="cantidad">
+                        <span class="botonesCantidad" id="restar">-</span>
+                        <span class="unidades" id="cantidad">1</span>
+                        <span class="botonesCantidad" id="sumar">+</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="formulario">
+        <h4 class="tituloForm">Registro de usuarios</h4>
+        <form class="form" action="">
+            <input id="nombre" type="text" placeholder="Nombre">
+            <input id="apellido" type="text" placeholder="Apellido">
+            <input id="mail" type="text" placeholder="Mail">
+            <input id="contraseña" type="password" placeholder="Contraseña">
+            <button id="registro" class="registro">Registrate</button>
+            <!-- <button class="registro">Registrate</button> -->
+        </form>
+    </section>
+
+    <div class="contenedorBuscador">
+        <h3>Buscador dinamico</h3>
+        <input id="inputBusqueda" class="contenido" type="text">
+        <button id="botonBusqueda" class="contenido registro">Buscar</button>
+        <div class="productos" id="listadoProductos">
+            <ul id="resultados">
+                
+            </ul>
+        </div>
+    </div>
+
+</body>
+<script src="ejemplosJavaScript.js"></script>
+<script src="ejemplosJavaScriptUtilizandoDOM.js"></script>
+</html>
